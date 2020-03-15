@@ -1,0 +1,188 @@
+body {
+    background-color: black;
+    color: white;
+}
+p{
+    color: white;
+}
+header{
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:navajowhite;
+    border:1px solid blue;
+    
+}
+
+nav {
+    
+    background-color: grey;
+    padding: 5px
+}
+nav ul{
+    
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+    
+        
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color: #8E8E8E;
+}
+#content{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+aside {
+        border:.5px solid yellow;
+    width: 18%;
+    float: right;
+}
+
+aside ul li a {
+    
+    color: blue;
+    text-decoration: none;
+    
+}
+aside ul li{
+    list-style-type: none;
+}
+#bigPic {
+    width: 70%;
+    float: right;
+}
+.col_detail{
+    float: left;
+    padding: 2px;
+}
+footer {
+    clear: both;
+    border: 1px solid orange;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+.menu{
+        list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+ul#menu li{
+       list-style-type: none;
+    display: inline;
+    margin: 5px;   
+}
+
+
+
+.ytvideo {
+float: right;
+    width: 50%;
+    
+    
+}
+
+.video {
+    float: left;
+}
+
+.cake {
+    float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2em;
+    
+}
+
+#Chocolate Cake {
+   float: left;
+    height: 50px; 
+    width:50px;
+}
+
+.aboutFood {
+    float:left;
+}
+
+.backgroundImageB {
+    background-image: url(../images/bacon.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC {
+        background-image: url(../images/carrots.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageD {
+    background-image: url(../images/eggs.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.col_article {
+        float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2em;
+    
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dishesDisplay {
+    text-align: center;
+}
+
+#active {
+    background-color: forestgreen;
+    
+}
